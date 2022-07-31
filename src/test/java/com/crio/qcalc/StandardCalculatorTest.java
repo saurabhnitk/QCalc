@@ -15,7 +15,7 @@ public class StandardCalculatorTest {
     }
 
 
-    /*@Test
+    @Test
     @DisplayName("Test Addition Overflow of Two Doubles")
     void testAdditionOverflowForDoubles(){
         //Assert
@@ -36,7 +36,7 @@ public class StandardCalculatorTest {
                 standardCalculator.subtract(-Double.MAX_VALUE,Double.MAX_VALUE);
             }
         });
-    }*/
+    }
 
     @Test
     @DisplayName("Test Addition of Two Doubles")
