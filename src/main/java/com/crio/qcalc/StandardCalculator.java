@@ -2,7 +2,7 @@ package com.crio.qcalc;
 
 public class StandardCalculator {
 
-    private double result;
+    protected double result;
 
     public double getResult() {
         return result;
