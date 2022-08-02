@@ -9,12 +9,17 @@ public class QcalcApplication {
 	public static void main(String[] args) {
 		//SpringApplication.run(QcalcApplication.class, args);
 		//System.out.println("Hello world!");
-		System.out.println("Starting QCalc..");
+		/*System.out.println("Starting QCalc..");
 		StandardCalculator calc = new StandardCalculator();
 
 		calc.add(1, 2);
 
-		System.out.println(calc.getResult());
+		System.out.println(calc.getResult());*/
+
+		LogicCalculator calc = new LogicCalculator();
+		calc.OR(8, 6);
+		calc.printResult();
+
 	}
 
 }
